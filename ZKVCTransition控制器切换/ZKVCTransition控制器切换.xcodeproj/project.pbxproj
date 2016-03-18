@@ -1,0 +1,546 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		58F29C951C72CDCF0062C09F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 58F29C941C72CDCF0062C09F /* main.m */; };
+		58F29C981C72CDCF0062C09F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 58F29C971C72CDCF0062C09F /* AppDelegate.m */; };
+		58F29CA01C72CDCF0062C09F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58F29C9F1C72CDCF0062C09F /* Assets.xcassets */; };
+		58F29CA31C72CDCF0062C09F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58F29CA11C72CDCF0062C09F /* LaunchScreen.storyboard */; };
+		58F29CAE1C72CDCF0062C09F /* ZKVCTransition_____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 58F29CAD1C72CDCF0062C09F /* ZKVCTransition_____Tests.m */; };
+		58F29CB91C72CDCF0062C09F /* ZKVCTransition_____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 58F29CB81C72CDCF0062C09F /* ZKVCTransition_____UITests.m */; };
+		58F29CD21C72F8EF0062C09F /* ZKTransitionAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 58F29CD11C72F8EF0062C09F /* ZKTransitionAnimation.m */; };
+		58F29CDF1C7310E10062C09F /* ZKMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58F29CDA1C7310E10062C09F /* ZKMainViewController.m */; };
+		58F29CE01C7310E10062C09F /* ZKMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 58F29CDB1C7310E10062C09F /* ZKMainViewController.xib */; };
+		58F29CE11C7310E10062C09F /* ZKModalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58F29CDD1C7310E10062C09F /* ZKModalViewController.m */; };
+		58F29CE21C7310E10062C09F /* ZKModalViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 58F29CDE1C7310E10062C09F /* ZKModalViewController.xib */; };
+		58F29CE51C7312990062C09F /* ZKPercentDrivenInteractiveTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 58F29CE41C7312990062C09F /* ZKPercentDrivenInteractiveTransition.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		58F29CAA1C72CDCF0062C09F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 58F29C881C72CDCF0062C09F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 58F29C8F1C72CDCF0062C09F;
+			remoteInfo = "ZKVCTransition控制器切换";
+		};
+		58F29CB51C72CDCF0062C09F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 58F29C881C72CDCF0062C09F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 58F29C8F1C72CDCF0062C09F;
+			remoteInfo = "ZKVCTransition控制器切换";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		58F29C901C72CDCF0062C09F /* ZKVCTransition控制器切换.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ZKVCTransition控制器切换.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		58F29C941C72CDCF0062C09F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		58F29C961C72CDCF0062C09F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		58F29C971C72CDCF0062C09F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		58F29C9F1C72CDCF0062C09F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		58F29CA21C72CDCF0062C09F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		58F29CA41C72CDCF0062C09F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		58F29CA91C72CDCF0062C09F /* ZKVCTransition控制器切换Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ZKVCTransition控制器切换Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		58F29CAD1C72CDCF0062C09F /* ZKVCTransition_____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "ZKVCTransition_____Tests.m"; sourceTree = "<group>"; };
+		58F29CAF1C72CDCF0062C09F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		58F29CB41C72CDCF0062C09F /* ZKVCTransition控制器切换UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ZKVCTransition控制器切换UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		58F29CB81C72CDCF0062C09F /* ZKVCTransition_____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "ZKVCTransition_____UITests.m"; sourceTree = "<group>"; };
+		58F29CBA1C72CDCF0062C09F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		58F29CD01C72F8EF0062C09F /* ZKTransitionAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKTransitionAnimation.h; sourceTree = "<group>"; };
+		58F29CD11C72F8EF0062C09F /* ZKTransitionAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKTransitionAnimation.m; sourceTree = "<group>"; };
+		58F29CD91C7310E10062C09F /* ZKMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKMainViewController.h; sourceTree = "<group>"; };
+		58F29CDA1C7310E10062C09F /* ZKMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKMainViewController.m; sourceTree = "<group>"; };
+		58F29CDB1C7310E10062C09F /* ZKMainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZKMainViewController.xib; sourceTree = "<group>"; };
+		58F29CDC1C7310E10062C09F /* ZKModalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKModalViewController.h; sourceTree = "<group>"; };
+		58F29CDD1C7310E10062C09F /* ZKModalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKModalViewController.m; sourceTree = "<group>"; };
+		58F29CDE1C7310E10062C09F /* ZKModalViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZKModalViewController.xib; sourceTree = "<group>"; };
+		58F29CE31C7312990062C09F /* ZKPercentDrivenInteractiveTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKPercentDrivenInteractiveTransition.h; sourceTree = "<group>"; };
+		58F29CE41C7312990062C09F /* ZKPercentDrivenInteractiveTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKPercentDrivenInteractiveTransition.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		58F29C8D1C72CDCF0062C09F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58F29CA61C72CDCF0062C09F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58F29CB11C72CDCF0062C09F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		58F29C871C72CDCF0062C09F = {
+			isa = PBXGroup;
+			children = (
+				58F29C921C72CDCF0062C09F /* ZKVCTransition控制器切换 */,
+				58F29CAC1C72CDCF0062C09F /* ZKVCTransition控制器切换Tests */,
+				58F29CB71C72CDCF0062C09F /* ZKVCTransition控制器切换UITests */,
+				58F29C911C72CDCF0062C09F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		58F29C911C72CDCF0062C09F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				58F29C901C72CDCF0062C09F /* ZKVCTransition控制器切换.app */,
+				58F29CA91C72CDCF0062C09F /* ZKVCTransition控制器切换Tests.xctest */,
+				58F29CB41C72CDCF0062C09F /* ZKVCTransition控制器切换UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		58F29C921C72CDCF0062C09F /* ZKVCTransition控制器切换 */ = {
+			isa = PBXGroup;
+			children = (
+				58F29C961C72CDCF0062C09F /* AppDelegate.h */,
+				58F29C971C72CDCF0062C09F /* AppDelegate.m */,
+				58F29CD81C7310E10062C09F /* Classes */,
+				58F29CD01C72F8EF0062C09F /* ZKTransitionAnimation.h */,
+				58F29CD11C72F8EF0062C09F /* ZKTransitionAnimation.m */,
+				58F29CE31C7312990062C09F /* ZKPercentDrivenInteractiveTransition.h */,
+				58F29CE41C7312990062C09F /* ZKPercentDrivenInteractiveTransition.m */,
+				58F29C931C72CDCF0062C09F /* Supporting Files */,
+			);
+			path = "ZKVCTransition控制器切换";
+			sourceTree = "<group>";
+		};
+		58F29C931C72CDCF0062C09F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				58F29CA41C72CDCF0062C09F /* Info.plist */,
+				58F29C9F1C72CDCF0062C09F /* Assets.xcassets */,
+				58F29CA11C72CDCF0062C09F /* LaunchScreen.storyboard */,
+				58F29C941C72CDCF0062C09F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		58F29CAC1C72CDCF0062C09F /* ZKVCTransition控制器切换Tests */ = {
+			isa = PBXGroup;
+			children = (
+				58F29CAD1C72CDCF0062C09F /* ZKVCTransition_____Tests.m */,
+				58F29CAF1C72CDCF0062C09F /* Info.plist */,
+			);
+			path = "ZKVCTransition控制器切换Tests";
+			sourceTree = "<group>";
+		};
+		58F29CB71C72CDCF0062C09F /* ZKVCTransition控制器切换UITests */ = {
+			isa = PBXGroup;
+			children = (
+				58F29CB81C72CDCF0062C09F /* ZKVCTransition_____UITests.m */,
+				58F29CBA1C72CDCF0062C09F /* Info.plist */,
+			);
+			path = "ZKVCTransition控制器切换UITests";
+			sourceTree = "<group>";
+		};
+		58F29CD81C7310E10062C09F /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				58F29CD91C7310E10062C09F /* ZKMainViewController.h */,
+				58F29CDA1C7310E10062C09F /* ZKMainViewController.m */,
+				58F29CDB1C7310E10062C09F /* ZKMainViewController.xib */,
+				58F29CDC1C7310E10062C09F /* ZKModalViewController.h */,
+				58F29CDD1C7310E10062C09F /* ZKModalViewController.m */,
+				58F29CDE1C7310E10062C09F /* ZKModalViewController.xib */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		58F29C8F1C72CDCF0062C09F /* ZKVCTransition控制器切换 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58F29CBD1C72CDCF0062C09F /* Build configuration list for PBXNativeTarget "ZKVCTransition控制器切换" */;
+			buildPhases = (
+				58F29C8C1C72CDCF0062C09F /* Sources */,
+				58F29C8D1C72CDCF0062C09F /* Frameworks */,
+				58F29C8E1C72CDCF0062C09F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ZKVCTransition控制器切换";
+			productName = "ZKVCTransition控制器切换";
+			productReference = 58F29C901C72CDCF0062C09F /* ZKVCTransition控制器切换.app */;
+			productType = "com.apple.product-type.application";
+		};
+		58F29CA81C72CDCF0062C09F /* ZKVCTransition控制器切换Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58F29CC01C72CDCF0062C09F /* Build configuration list for PBXNativeTarget "ZKVCTransition控制器切换Tests" */;
+			buildPhases = (
+				58F29CA51C72CDCF0062C09F /* Sources */,
+				58F29CA61C72CDCF0062C09F /* Frameworks */,
+				58F29CA71C72CDCF0062C09F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				58F29CAB1C72CDCF0062C09F /* PBXTargetDependency */,
+			);
+			name = "ZKVCTransition控制器切换Tests";
+			productName = "ZKVCTransition控制器切换Tests";
+			productReference = 58F29CA91C72CDCF0062C09F /* ZKVCTransition控制器切换Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		58F29CB31C72CDCF0062C09F /* ZKVCTransition控制器切换UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58F29CC31C72CDCF0062C09F /* Build configuration list for PBXNativeTarget "ZKVCTransition控制器切换UITests" */;
+			buildPhases = (
+				58F29CB01C72CDCF0062C09F /* Sources */,
+				58F29CB11C72CDCF0062C09F /* Frameworks */,
+				58F29CB21C72CDCF0062C09F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				58F29CB61C72CDCF0062C09F /* PBXTargetDependency */,
+			);
+			name = "ZKVCTransition控制器切换UITests";
+			productName = "ZKVCTransition控制器切换UITests";
+			productReference = 58F29CB41C72CDCF0062C09F /* ZKVCTransition控制器切换UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		58F29C881C72CDCF0062C09F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = ZK;
+				TargetAttributes = {
+					58F29C8F1C72CDCF0062C09F = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					58F29CA81C72CDCF0062C09F = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 58F29C8F1C72CDCF0062C09F;
+					};
+					58F29CB31C72CDCF0062C09F = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 58F29C8F1C72CDCF0062C09F;
+					};
+				};
+			};
+			buildConfigurationList = 58F29C8B1C72CDCF0062C09F /* Build configuration list for PBXProject "ZKVCTransition控制器切换" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 58F29C871C72CDCF0062C09F;
+			productRefGroup = 58F29C911C72CDCF0062C09F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				58F29C8F1C72CDCF0062C09F /* ZKVCTransition控制器切换 */,
+				58F29CA81C72CDCF0062C09F /* ZKVCTransition控制器切换Tests */,
+				58F29CB31C72CDCF0062C09F /* ZKVCTransition控制器切换UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		58F29C8E1C72CDCF0062C09F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58F29CE01C7310E10062C09F /* ZKMainViewController.xib in Resources */,
+				58F29CA31C72CDCF0062C09F /* LaunchScreen.storyboard in Resources */,
+				58F29CA01C72CDCF0062C09F /* Assets.xcassets in Resources */,
+				58F29CE21C7310E10062C09F /* ZKModalViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58F29CA71C72CDCF0062C09F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58F29CB21C72CDCF0062C09F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		58F29C8C1C72CDCF0062C09F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58F29CE51C7312990062C09F /* ZKPercentDrivenInteractiveTransition.m in Sources */,
+				58F29C981C72CDCF0062C09F /* AppDelegate.m in Sources */,
+				58F29CE11C7310E10062C09F /* ZKModalViewController.m in Sources */,
+				58F29C951C72CDCF0062C09F /* main.m in Sources */,
+				58F29CDF1C7310E10062C09F /* ZKMainViewController.m in Sources */,
+				58F29CD21C72F8EF0062C09F /* ZKTransitionAnimation.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58F29CA51C72CDCF0062C09F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58F29CAE1C72CDCF0062C09F /* ZKVCTransition_____Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58F29CB01C72CDCF0062C09F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58F29CB91C72CDCF0062C09F /* ZKVCTransition_____UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		58F29CAB1C72CDCF0062C09F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 58F29C8F1C72CDCF0062C09F /* ZKVCTransition控制器切换 */;
+			targetProxy = 58F29CAA1C72CDCF0062C09F /* PBXContainerItemProxy */;
+		};
+		58F29CB61C72CDCF0062C09F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 58F29C8F1C72CDCF0062C09F /* ZKVCTransition控制器切换 */;
+			targetProxy = 58F29CB51C72CDCF0062C09F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		58F29CA11C72CDCF0062C09F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				58F29CA21C72CDCF0062C09F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		58F29CBB1C72CDCF0062C09F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		58F29CBC1C72CDCF0062C09F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		58F29CBE1C72CDCF0062C09F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "ZKVCTransition控制器切换/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hoolai.ZKVCTransition-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		58F29CBF1C72CDCF0062C09F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "ZKVCTransition控制器切换/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hoolai.ZKVCTransition-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		58F29CC11C72CDCF0062C09F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "ZKVCTransition控制器切换Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hoolai.ZKVCTransition-----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZKVCTransition控制器切换.app/ZKVCTransition控制器切换";
+			};
+			name = Debug;
+		};
+		58F29CC21C72CDCF0062C09F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "ZKVCTransition控制器切换Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hoolai.ZKVCTransition-----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZKVCTransition控制器切换.app/ZKVCTransition控制器切换";
+			};
+			name = Release;
+		};
+		58F29CC41C72CDCF0062C09F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "ZKVCTransition控制器切换UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hoolai.ZKVCTransition-----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "ZKVCTransition控制器切换";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		58F29CC51C72CDCF0062C09F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "ZKVCTransition控制器切换UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hoolai.ZKVCTransition-----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "ZKVCTransition控制器切换";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		58F29C8B1C72CDCF0062C09F /* Build configuration list for PBXProject "ZKVCTransition控制器切换" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58F29CBB1C72CDCF0062C09F /* Debug */,
+				58F29CBC1C72CDCF0062C09F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		58F29CBD1C72CDCF0062C09F /* Build configuration list for PBXNativeTarget "ZKVCTransition控制器切换" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58F29CBE1C72CDCF0062C09F /* Debug */,
+				58F29CBF1C72CDCF0062C09F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		58F29CC01C72CDCF0062C09F /* Build configuration list for PBXNativeTarget "ZKVCTransition控制器切换Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58F29CC11C72CDCF0062C09F /* Debug */,
+				58F29CC21C72CDCF0062C09F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		58F29CC31C72CDCF0062C09F /* Build configuration list for PBXNativeTarget "ZKVCTransition控制器切换UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58F29CC41C72CDCF0062C09F /* Debug */,
+				58F29CC51C72CDCF0062C09F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 58F29C881C72CDCF0062C09F /* Project object */;
+}
